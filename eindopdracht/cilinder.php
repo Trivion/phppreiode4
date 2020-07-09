@@ -16,9 +16,9 @@ class Cilinder extends Figuur{
         }
 
         public function berekenOppervlakte(){
-            $oppTweeCirkels = * parent::$PI * $this->getR() $this->getR();
+            $oppTweeCirkels = 2 * parent::$PI * $this->getR() $this->getR();
 
-            $oppvlakteBuis = * parent::$PI * $this->getR() $this->getR();
+            $oppvlakteBuis = 2 * parent::$PI * $this->getR() $this->getR();
             
             $oppvlakteCillinder =   $oppTweeCirkels + $oppTweeCirkels;
 
